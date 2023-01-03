@@ -32,7 +32,7 @@
                 </p>
                 <span class="w-full flex items-center ml-12">
                     <button
-                        class="font-sans text-sm font-medium px-4 py-2 hover:shadow-lg hover:shadow-purple-300 rounded-full flex justify-between items-center bg-primary text-white">
+                        class="font-sans text-sm font-medium px-4 py-2 hover:shadow-lg hover:shadow-purple rounded-full flex justify-between items-center bg-primary text-white">
                         <span class="pr-2 font-sans items-center font-medium">Let's Work</span>
                     </button>
                     <a href="" class="ml-4 font-sans font-medium">About Me</a>
