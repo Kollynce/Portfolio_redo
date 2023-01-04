@@ -2,7 +2,7 @@
     <div class="p-4">
         <div class="w-full flex justify-between p-4 h-3/4 items-center">
             <div class="w-1/2 m-4">
-                <p>
+                <p class="">
                     <svg width="167" height="78" viewBox="0 0 167 78" fill="none" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink">
                         <path
@@ -24,18 +24,14 @@
                     Am a Designer! Let me explain.
                 </p>
                 <p class="text-xl font-serif py-6 ml-12">
-                    As a UI/UX designer, I specialize in creating bold, modern, and stylish user interfaces and
-                    experiences for corporate and small businesses alike. My goal is to help companies improve the
-                    usability and overall enjoyment of their digital products for their users. I take a user-centered
-                    approach to design, focusing on creating intuitive and aesthetically pleasing designs that meet the
-                    needs of the target audience.
+                    Hi there! My name is Collins Odeny, but you can call me Collins Kreation. I am a UI/UX designer with a passion for creating intuitive and visually appealing digital experiences.
                 </p>
                 <span class="w-full flex items-center ml-12">
                     <button
-                        class="font-sans text-sm font-medium px-4 py-2 hover:shadow-lg hover:shadow-purple rounded-full flex justify-between items-center bg-primary text-white">
+                        class="font-sans text-sm font-medium px-4 py-2 hover:shadow-lg hover:shadow-purple-200 rounded-full flex justify-between items-center bg-primary text-white">
                         <span class="pr-2 font-sans items-center font-medium">Let's Work</span>
                     </button>
-                    <a href="" class="ml-4 font-sans font-medium">About Me</a>
+                    <a href="" class="ml-4 font-sans font-medium hover:text-primary">About Me</a>
                 </span>
             </div>
             <div class="w-1/2">
@@ -48,7 +44,7 @@
                 <span class="mr-8">
                     <img class="w-8 h-8" src="../assets/tongue.png" alt="">
                 </span>
-                <a href="#" class="p-4 rounded-full shadow-lg hover:shadow-purple-300">
+                <a href="https://dribbble.com/Kryme" target="_blank" class="p-4 rounded-full shadow-lg hover:shadow-purple-200">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M12 0C5.37933 0 0 5.37933 0 12C0 18.6207 5.37933 24 12 24C18.6207 24 24 18.6207 24 12C24 5.37933 18.6207 0 12 0Z"
@@ -73,7 +69,7 @@
                             fill="white" />
                     </svg>
                 </a>
-                <a href="#" class="p-4 ml-2 rounded-full shadow-lg hover:shadow-purple-300">
+                <a href="https://www.behance.net/collinskreation" target="_blank" class="p-4 ml-2 rounded-full shadow-lg hover:shadow-purple-200">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="24" height="24" fill="white" />
                         <path d="M15.7931 7.27586H21.1035V5.75864H15.7931V7.27586Z" fill="#2D8BFB" />
@@ -94,7 +90,7 @@
                             fill="white" />
                     </svg>
                 </a>
-                <a href="#" class="p-4 ml-2 rounded-full shadow-lg hover:shadow-purple-300">
+                <a href="https://www.youtube.com/channel/UCR95dEic6Il-bRZUyTBGsng" target="_blank" class="p-4 ml-2 rounded-full shadow-lg hover:shadow-purple-200">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="24" height="24" fill="white" />
                         <path
@@ -102,7 +98,7 @@
                             fill="#F61C0D" />
                     </svg>
                 </a>
-                <a href="#" class="p-4 ml-2 rounded-full shadow-lg hover:shadow-purple-300">
+                <a href="https://www.linkedin.com/in/collins-odeny-844449159/" target="_blank" class="p-4 ml-2 rounded-full shadow-lg hover:shadow-purple-200">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect y="6.10352e-05" width="24" height="24" fill="white" />
                         <path
