@@ -1,6 +1,6 @@
 <template>
     <div class="p-4">
-        <div class="w-full flex justify-between p-4 h-3/4 items-center">
+        <div class="w-full flex justify-between p-4 h-3/4 items-center space-x-28">
             <div class="w-1/2 m-4">
                 <p class="">
                     <svg width="167" height="78" viewBox="0 0 167 78" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@
                 </span>
             </div>
             <div class="w-1/2">
-                <img src="../assets/me.jpg" class="w-450 rounded-[50px] object-cover" />
+                <img src="../assets/me.png" class="w-450 rounded-[50px] object-cover" />
             </div>
         </div>
         <div class="w-full flex">

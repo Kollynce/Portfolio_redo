@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full flex justify-between p-4 h-screen items-center container">
+    <div class="w-full flex justify-between p-4 h-screen items-center container space-x-28">
         <div class="w-1/2 m-4">
             <p class="">
                 <svg width="161" height="71" viewBox="0 0 161 71" fill="none" xmlns="http://www.w3.org/2000/svg">
