@@ -1,6 +1,6 @@
 <template>
     <div class="p-4">
-        <div class="w-full flex justify-between p-4 h-3/4 items-center space-x-28">
+        <div class="w-full flex justify-between p-4 h-screen items-center space-x-28">
             <div class="w-1/2 m-4">
                 <p class="">
                     <svg width="167" height="78" viewBox="0 0 167 78" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@
 
                 </p>
                 <p class="text-5xl font-sans font-bold ml-12">
-                    Am a Designer! Let me explain.
+                    I am a UI/UX designer! Let me explain.
                 </p>
                 <p class="text-xl font-serif py-6 ml-12">
                     Hi there! My name is Collins Odeny, but you can call me Collins Kreation. I am a UI/UX designer with a passion for creating intuitive and visually appealing digital experiences.
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="w-full flex">
-            <span class="flex m-4 p-4 items-center">
+            <span class="flex m-4 items-center">
                 <p class="font-bold text-lg mr-4">Let's Get Personal</p>
                 <span class="mr-8">
                     <img class="w-8 h-8" src="../assets/tongue.png" alt="">

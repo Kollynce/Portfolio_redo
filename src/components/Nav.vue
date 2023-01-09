@@ -1,5 +1,5 @@
 <template>
-    <nav class="flex items-center justify-between py-4 px-8 w-full">
+    <nav class="sticky flex items-center justify-between py-4 px-8 w-full shadow-lg bg-white shadow-none">
         <div class="container mx-auto flex items-center justify-between">
             <div class="font-sans font-bold text-2xl">Collins Kreation</div>
             <div class="flex items-center">
@@ -16,11 +16,39 @@
 </template>
 
 <script>
-    export default {
+export default {
+    mounted() {
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.sticky');
+            if (window.scrollY > 0) {
+                nav.classList.add('shadow');
+            } else {
+                nav.classList.remove('shadow');
+            }
+        });
+    },
 
-    }
+}
 </script>
 
 <style>
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.hover:shadow-lg {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hover:shadow-purple-200 {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.shadow {
+  box-shadow: 0 1px 3px rgba(187, 0, 255, 0.12), 0 1px 3px rgba(187, 0, 255, 0.12);
+}
+
 
 </style>

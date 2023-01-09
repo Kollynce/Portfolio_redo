@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full flex justify-between p-4 h-screen items-center container space-x-28">
+    <div class="w-full flex justify-between p-4 h-screen items-center container space-x-28 bg-gray-50">
         <div class="w-1/2 m-4">
             <p class="">
                 <svg width="174" height="75" viewBox="0 0 174 75" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -9,7 +9,7 @@
                 </svg>
             </p>
             <p class="text-5xl font-sans font-bold ml-12">
-                My Recent Projects
+                My Latest Creative Endeavors
             </p>
             <p class="text-xl font-serif py-6 ml-12">
                 These are my recent case study of clients work and some inspirations I create.
@@ -32,7 +32,7 @@
                     <div class="">
                         <p class="text-gray-700 font-bold text-xl pb-4">Inspiration</p>
                         <div class="progresbar">
-                            <svg width="272" height="7" viewBox="0 0 272 7" fill="none"
+                            <svg width="100%" height="7" viewBox="0 0 272 7" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect y="0.811279" width="272" height="6" rx="3" fill="#F4D6FF" />
                                 <rect y="0.811279" width="212" height="6" rx="3" fill="#BB6BD9" />

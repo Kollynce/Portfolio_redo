@@ -19,8 +19,7 @@
       <Footer></Footer>
     </section>
   </div>
-  <!-- <div class="text-xl font-sans">This text will be displayed in Poppins</div>
-  <div class="text-xl font-serif">This text will be displayed in Lora</div> -->
+
 </template>
 
 <script setup>
