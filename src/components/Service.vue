@@ -12,9 +12,7 @@
                 What I will help you Build.
             </p>
             <p class="text-xl font-serif py-6 ml-12">
-                I help my clients customers to have great experience on the web site, Mobile App and Analytical
-                dashboards that they use. This has help in converting them from visitors to clients and increasing there
-                revenue.
+                I'm excited to share with you some of the skills and experiences that have allowed me to create engaging and effective digital experiences for my clients. From building sleek and intuitive websites to designing mobile apps that users love, I've helped many businesses increase their revenue and customer satisfaction. Take a look at some of my recent projects below and see for yourself the impact that my skills can have. I guarantee you'll be impressed. So, Let's Explore together!
             </p>
             <span class="w-full flex items-center ml-12">
                 <button

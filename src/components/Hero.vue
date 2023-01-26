@@ -24,7 +24,7 @@
                     I am a UI/UX designer! Let me explain.
                 </p>
                 <p class="text-xl font-serif py-6 ml-12">
-                    Hi there! My name is Collins Odeny, but you can call me Collins Kreation. I am a UI/UX designer with a passion for creating intuitive and visually appealing digital experiences.
+                    My name is Collins Odeny, but you can call me Collins Kreation. I am a UI/UX designer with a passion for creating intuitive and visually appealing digital experiences. I specialize in helping my clients create user-centered designs that not only look great but also improve the overall user experience. My background as a full-stack software developer for 5 years, working on Vue and Laravel projects, gives me a unique perspective when it comes to creating designs that are not only visually appealing but also functional and easy to use. Take a look at my experiences below and see for yourself the projects I have worked on and the skills I bring to the table.
                 </p>
                 <span class="w-full flex items-center ml-12">
                     <button

@@ -12,14 +12,12 @@
                 Here are my skills and Experiences
             </p>
             <p class="text-xl font-serif py-6 ml-12">
-                I help my clients customers to have great experience on the web site, Mobile App and Analytical
-                dashboards that they use. This has help in converting them from visitors to clients and increasing there
-                revenue.
+                I'm excited to share with you some of the skills and experiences that have helped me create and work on some truly captivating projects. I've had the opportunity to delve into some truly fascinating projects. I invite you to take a look and see for yourself - I think you'll find them just as interesting as I do!
             </p>
             <p class="font-medium font-sans text-3xl ml-12">
                 Skills
             </p>
-            <div class="ml-12 pt-4 grid grid-cols-3 gap-12">
+            <div class="ml-12 pt-4 grid grid-cols-3 gap-4">
                 <div class="col-span-1">
                     <div class="w-14 h-14 bg-primary rounded-md flex justify-center items-center">
                         <p class="text-2xl font-bold text-white text-center">WD</p>

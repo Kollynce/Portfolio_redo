@@ -25,7 +25,7 @@
             </span>
             <div class="bg-gray-100 rounded-lg w-full flex items-center ml-12">
                 <div class="bg-gray-400 rounded-lg w-40 h-40 mr-4">
-
+                    <img src="../assets/Project.png" class="object-cover rounded-xl shadow-lg h-full" />
                 </div>
                 <div class="">
                     <p class="font-bold text-2xl pb-4">Starbucks Case Study</p>

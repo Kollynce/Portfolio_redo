@@ -23,17 +23,32 @@
             </p>
             <div class="flex items-center ml-12">
                 <div class="w-14 h-14 mr-4 bg-primary rounded-md flex justify-center items-center">
-                    <p class="text-2xl font-bold text-white text-center">WD</p>
+                    <p class="text-2xl font-bold text-white text-center">
+                        <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21.75 26.6143H9.25C5.5 26.6143 3 24.7393 3 20.3643V11.6143C3 7.23926 5.5 5.36426 9.25 5.36426H21.75C25.5 5.36426 28 7.23926 28 11.6143V20.3643C28 24.7393 25.5 26.6143 21.75 26.6143Z"
+                                stroke="#F2F2F2" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M21.75 12.2393L17.8375 15.3643C16.55 16.3893 14.4375 16.3893 13.15 15.3643L9.25 12.2393"
+                                stroke="#F2F2F2" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    
+                    </p>
                 </div>
                 <div class="flex-1">
                     <p class="text-gray-500 font-medium text-xl pb-2">Email</p>
-                    <p class="font-medium text-xl">client.collinskreation@gmail.com</p>
+                    <p class="font-medium text-xl">hello.collinskreation.com</p>
                 </div>
             </div>
             <hr class="my-4 w-2/3 h-2 text-gray-500 ml-12">
             <div class="flex items-center ml-12">
                 <div class="w-14 h-14 mr-4 bg-primary rounded-md flex justify-center items-center">
-                    <p class="text-2xl font-bold text-white text-center">WD</p>
+                    <p class="text-2xl font-bold text-white text-center">
+                        <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M27.9625 23.9018C27.9625 24.3518 27.8625 24.8143 27.65 25.2643C27.4375 25.7143 27.1625 26.1393 26.8 26.5393C26.1875 27.2143 25.5125 27.7018 24.75 28.0143C24 28.3268 23.1875 28.4893 22.3125 28.4893C21.0375 28.4893 19.675 28.1893 18.2375 27.5768C16.8 26.9643 15.3625 26.1393 13.9375 25.1018C12.5 24.0518 11.1375 22.8893 9.8375 21.6018C8.55 20.3018 7.3875 18.9393 6.35 17.5143C5.325 16.0893 4.5 14.6643 3.9 13.2518C3.3 11.8268 3 10.4643 3 9.16426C3 8.31426 3.15 7.50176 3.45 6.75176C3.75 5.98926 4.225 5.28926 4.8875 4.66426C5.6875 3.87676 6.5625 3.48926 7.4875 3.48926C7.8375 3.48926 8.1875 3.56426 8.5 3.71426C8.825 3.86426 9.1125 4.08926 9.3375 4.41426L12.2375 8.50176C12.4625 8.81426 12.625 9.10176 12.7375 9.37676C12.85 9.63926 12.9125 9.90176 12.9125 10.1393C12.9125 10.4393 12.825 10.7393 12.65 11.0268C12.4875 11.3143 12.25 11.6143 11.95 11.9143L11 12.9018C10.8625 13.0393 10.8 13.2018 10.8 13.4018C10.8 13.5018 10.8125 13.5893 10.8375 13.6893C10.875 13.7893 10.9125 13.8643 10.9375 13.9393C11.1625 14.3518 11.55 14.8893 12.1 15.5393C12.6625 16.1893 13.2625 16.8518 13.9125 17.5143C14.5875 18.1768 15.2375 18.7893 15.9 19.3518C16.55 19.9018 17.0875 20.2768 17.5125 20.5018C17.575 20.5268 17.65 20.5643 17.7375 20.6018C17.8375 20.6393 17.9375 20.6518 18.05 20.6518C18.2625 20.6518 18.425 20.5768 18.5625 20.4393L19.5125 19.5018C19.825 19.1893 20.125 18.9518 20.4125 18.8018C20.7 18.6268 20.9875 18.5393 21.3 18.5393C21.5375 18.5393 21.7875 18.5893 22.0625 18.7018C22.3375 18.8143 22.625 18.9768 22.9375 19.1893L27.075 22.1268C27.4 22.3518 27.625 22.6143 27.7625 22.9268C27.8875 23.2393 27.9625 23.5518 27.9625 23.9018Z"
+                                stroke="#F2F2F2" stroke-width="2.5" stroke-miterlimit="10" />
+                        </svg>
+                    </p>
                 </div>
                 <div class="flex-1">
                     <p class="text-gray-500 font-medium text-xl pb-2">Location</p>
@@ -42,7 +57,7 @@
             </div>
         </div>
         <div class="w-1/2 flex items-center">
-            <img src="../assets/me2.png" class="w-3/4 object-cover" />
+            <img src="../assets/cartoon-me.jpeg" class="w-3/4 object-cover rounded-xl shadow-lg shadow-purple-300" />
         </div>
     </div>
 </template>
