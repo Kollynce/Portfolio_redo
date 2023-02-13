@@ -1,10 +1,10 @@
 <template>
     <nav class="sticky flex items-center justify-between py-4 px-8 w-full shadow-lg bg-white shadow-none">
         <div class="container mx-auto flex items-center justify-between">
-            <div class="font-sans font-bold text-2xl">Collins Kreation</div>
+            <router-link to="/" class="font-sans font-bold text-2xl">Collins Kreation</router-link>
             <div class="flex items-center">
-                <a href="#" class="font-sans text-sm font-medium px-8 hover:text-primary">About</a>
-                <a href="#" class="font-sans text-sm font-medium px-8 hover:text-primary">Work</a>
+                <router-link to="/about" class="font-sans text-sm font-medium px-8 hover:text-primary">About</router-link>
+              <router-link to="/work" class="font-sans text-sm font-medium px-8 hover:text-primary">Work</router-link>
                 <button
                     class="font-sans text-sm font-medium px-4 py-2 rounded-full w-full flex justify-between items-center hover:shadow-lg hover:shadow-purple-200 bg-primary text-white">
                     <span class="pr-2">Say Hi!</span>
