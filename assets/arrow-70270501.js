@@ -1,0 +1,1 @@
+const s="/vue-todo-list/assets/dribbble-71a25738.svg",t="/vue-todo-list/assets/behance-97d5fdbf.svg",o="/vue-todo-list/assets/youtube-8673d25f.svg",e="/vue-todo-list/assets/linkedin-90adc593.svg",a="/vue-todo-list/assets/arrow-8f0681f6.svg";export{s as _,t as a,o as b,e as c,a as d};
