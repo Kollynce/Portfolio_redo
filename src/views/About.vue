@@ -4,7 +4,7 @@
       <div class="flex flex-wrap md:flex-nowrap items-stretch">
         <!-- Picture part -->
         <div class="w-full md:w-1/2 mb-8 md:mb-0 min-h-[400px] relative">
-          <img src="../assets/kreation.JPG" alt="About Picture"
+          <img src="/kreation.jpg" alt="About Picture"
             class="absolute inset-0 object-cover w-full h-full rounded-xl" />
         </div>
         <!-- Content part -->
