@@ -1,17 +1,17 @@
 <template>
-  <section>
+  <section class="mb-8 md:mb-0">
     <Hero></Hero>
   </section>
-  <section>
+  <section class="mb-8 md:mb-0 bg-gray-50">
     <Service></Service>
   </section>
-  <section>
+  <section class="mb-8 md:mb-0">
     <Experience></Experience>
   </section>
-  <section>
+  <section class="mb-8 md:mb-0 bg-gray-50">
     <Projects></Projects>
   </section>
-  <section>
+  <section class="mb-8 md:mb-0">
     <Footer></Footer>
   </section>
 </template>
