@@ -3,8 +3,10 @@
     <div class="container mx-auto flex items-center justify-between">
       <router-link to="/" class="font-sans font-bold text-2xl">Collins Kreation</router-link>
       <div class="hidden md:flex items-center">
-        <router-link to="/about" class="font-sans text-sm font-medium px-8 hover:text-primary">About</router-link>
-        <router-link to="/work" class="font-sans text-sm font-medium px-8 hover:text-primary">Work</router-link>
+        <router-link v-slot="{ isActive }" to="/about" class="font-sans text-sm font-medium px-8 hover:text-primary" :class="{ 'text-primary': isActive }">About</router-link>
+        <router-link v-slot="{ isActive }" to="/work" class="font-sans text-sm font-medium px-8 hover:text-primary" :class="{ 'text-primary': isActive }">Work</router-link>
+        <router-link v-slot="{ isActive }" to="/blogs" class="font-sans text-sm font-medium px-8 hover:text-primary" :class="{ 'text-primary': isActive }">Blogs</router-link>
+        <router-link v-slot="{ isActive }" to="/gpt" class="font-sans text-sm font-medium px-8 hover:text-primary" :class="{ 'text-primary': isActive }">GPT</router-link>
         <button
           class="font-sans text-sm font-medium px-4 py-2 rounded-full w-full flex justify-between items-center hover:shadow-lg hover:shadow-purple-200 bg-primary text-white">
           <span class="pr-2">Say Hi!</span>
@@ -17,10 +19,10 @@
     </div>
     <div class="md:hidden" v-if="menuOpen">
       <div class="mobile-menu p-4">
-        <router-link to="/about" class="font-sans text-sm font-medium block mb-4 hover:text-primary"
-          @click="toggleMenu">About</router-link>
-        <router-link to="/work" class="font-sans text-sm font-medium block mb-4 hover:text-primary"
-          @click="toggleMenu">Work</router-link>
+        <router-link v-slot="{ isActive }" to="/about" class="font-sans text-sm font-medium block mb-4 hover:text-primary" :class="{ 'text-primary': isActive }" @click="toggleMenu">About</router-link>
+        <router-link v-slot="{ isActive }" to="/work" class="font-sans text-sm font-medium block mb-4 hover:text-primary" :class="{ 'text-primary': isActive }" @click="toggleMenu">Work</router-link>
+        <router-link v-slot="{ isActive }" to="/blogs" class="font-sans text-sm font-medium block mb-4 hover:text-primary" :class="{ 'text-primary': isActive }" @click="toggleMenu">Blogs</router-link>
+        <router-link v-slot="{ isActive }" to="/gpt" class="font-sans text-sm font-medium block mb-4 hover:text-primary" :class="{ 'text-primary': isActive }" @click="toggleMenu">GPT</router-link>
       </div>
     </div>
   </nav>
@@ -80,4 +82,6 @@ export default {
 
 .shadow {
   box-shadow: 0 1px 3px rgba(187, 0, 255, 0.12), 0 1px 3px rgba(187, 0, 255, 0.12);
-}</style>
+}
+
+</style>

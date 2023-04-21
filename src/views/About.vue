@@ -73,12 +73,13 @@
       </div>
     </div>
   </section>
+  <section class="mb-8 md:mb-0">
+      <Footer></Footer>
+    </section>
 </template>
 
-<script>
-export default {
-  name: "AboutMe",
-};
+<script setup>
+import Footer from '../components/Footer.vue'
 </script>
 
 <style scoped>.about-image {

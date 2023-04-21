@@ -16,6 +16,21 @@ const routes = [
         name: 'Work',
         component: () => import("../views/Work.vue")
     },
+    {
+        path: '/blogs',
+        name: 'Blogs',
+        component: () => import("../views/Blogs.vue")
+    },
+    {
+        path: '/gpt',
+        name: 'Gpt',
+        component: () => import("../views/Gpt.vue")
+    },
+    {
+        path: '/posts/:id',
+        name: 'BlogPost',
+        component: () => import("../views/BlogPost.vue")
+    },
 ];
 
 const isClient = typeof window !== "undefined";
