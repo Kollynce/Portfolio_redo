@@ -8,18 +8,18 @@
         <p class="text-4xl md:text-5xl font-sans font-bold md:ml-12">
           I am a UI/UX designer! Let me explain.
         </p>
-        <p class="text-lg md:text-xl font-serif py-6 md:ml-12">
+        <p class="text-lg md:text-2xl font-serif py-6 md:ml-12">
           Hi, I'm Collins Kreation, a UI/UX designer dedicated to creating intuitive and visually stunning digital
           experiences. With a background in full-stack development, I'll help your business excel with user-centered
           designs that are both functional and eye-catching. Explore my work and let's elevate your customers' experience
           together.
         </p>
-        <div class="flex flex-col md:flex-row items-center md:ml-12">
+        <div class="flex flex-col md:flex-row items-center md:ml-12 mt- space-x-12">
           <button
-            class="font-sans text-sm md:text-base font-medium px-4 py-2 hover:shadow-lg hover:shadow-purple-200 rounded-full flex justify-between items-center bg-primary text-white mb-4 md:mb-0">
+            class="font-sans text-sm md:text-base font-medium px-12 py-4 hover:shadow-lg hover:shadow-purple-200 rounded-full flex justify-between items-center bg-primary text-white mb-4 md:mb-0">
             <span class="pr-2 font-sans items-center font-medium">Let's Work</span>
           </button>
-          <a href="" class="ml-0 md:ml-4 font-sans font-medium hover:text-primary">About Me</a>
+          <router-link to="/about" class="ml-0 md:ml-6 font-sans font-medium hover:text-primary">About</router-link>
         </div>
       </div>
       <div class="md:w-1/2 flex justify-center">

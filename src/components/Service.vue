@@ -1,5 +1,6 @@
 <template>
-  <div
+  <div class="flex justify-center items-center">
+    <div
     class="w-full flex flex-col md:flex-row justify-between p-4 md:min-h-screen items-center container space-y-8 md:space-y-0 md:space-x-28 bg-gray-50">
     <div class="w-full md:w-1/2 m-4">
       <p class="hidden md:flex">
@@ -8,16 +9,16 @@
       <p class="text-4xl md:text-5xl font-sans font-bold md:ml-12">
         What I will help you Build.
       </p>
-      <p class="text-lg md:text-xl font-serif py-6 md:ml-12">
+      <p class="text-lg md:text-2xl font-serif py-6 md:ml-12">
         I'm excited to share with you some of the skills and experiences that have allowed me to create engaging and
         effective digital experiences for my clients. From building sleek and intuitive websites to designing mobile apps
         that users love, I've helped many businesses increase their revenue and customer satisfaction. Take a look at some
         of my recent projects below and see for yourself the impact that my skills can have. I guarantee you'll be
         impressed. So, Let's Explore together!
       </p>
-      <span class="w-full flex items-center md:ml-12">
+      <span class="w-full flex items-center mt-8 md:ml-12">
         <button
-          class="font-sans text-sm font-medium px-4 py-2 hover:shadow-lg hover:shadow-purple-200 rounded-full flex justify-between items-center bg-primary text-white">
+          class="font-sans text-sm font-medium px-12 py-4 hover:shadow-lg hover:shadow-purple-200 rounded-full flex justify-between items-center bg-primary text-white">
           <span class="pr-2 font-sans items-center font-medium">Explore my Work</span>
         </button>
       </span>
@@ -54,6 +55,8 @@
       </div>
     </div>
   </div>
+  </div>
+  
 </template>
 
 <script>

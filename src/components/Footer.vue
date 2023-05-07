@@ -1,5 +1,6 @@
 <template>
-    <div class="w-full flex flex-col md:flex-row justify-between p-4 md:min-h-screen items-center container md:space-x-28">
+    <div class="flex justify-center items-center">
+       <div class="w-full flex flex-col md:flex-row justify-between p-4 md:min-h-screen items-center container md:space-x-28">
         <div class="w-full md:w-1/2 m-4">
             <p class="hidden md:flex">
                 <img src="../assets/footer.svg" alt="" />
@@ -35,7 +36,9 @@
             <img src="../assets/cartoon-me.jpeg"
                 class="w-3/4 md:w-auto object-cover rounded-xl shadow-lg shadow-purple-300" />
         </div>
+    </div> 
     </div>
+    
 </template>
 
 <script>

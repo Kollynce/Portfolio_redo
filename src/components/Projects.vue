@@ -1,6 +1,7 @@
 <template>
-    <div
-        class="w-full flex flex-col md:flex-row justify-between p-4 md:min-h-screen items-center container space-x-0 md:space-x-28 bg-gray-50">
+    <div class="flex justify-center items-center">
+        <div
+        class="w-full flex flex-col md:flex-row justify-between px-4 md:min-h-screen items-center container space-x-0 md:space-x-28 bg-gray-50">
         <div class="w-full md:w-1/2 m-4">
             <p class="hidden md:flex">
                 <img src="../assets/projects.svg" alt="" />
@@ -38,6 +39,8 @@
             <img src="../assets/projects.png" class="w-full h-full object-cover" />
         </div>
     </div>
+    </div>
+    
 </template>
 
 <script>

@@ -1,5 +1,7 @@
 <template>
-  <div
+  <div class="flex justify-center items-center">
+    <div class="flex justify-center items-center">
+    <div
     class="w-full flex flex-col md:flex-row justify-between p-4 h-full md:min-h-screen items-center container space-y-8 md:space-y-0 md:space-x-28">
     <div class="w-full md:w-1/2 m-4">
       <p class="hidden md:flex">
@@ -61,6 +63,10 @@
       </div>
     </div>
   </div>
+  </div>
+  </div>
+  
+  
 </template>
 
 <script>
